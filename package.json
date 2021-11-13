@@ -1,0 +1,23 @@
+{
+  "name": "company-organizer",
+  "version": "1.0.0",
+  "description": "A command line application to organize employees, departments, and roles in a company",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brOmarito/company-organizer.git"
+  },
+  "author": "brOmarito",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brOmarito/company-organizer/issues"
+  },
+  "homepage": "https://github.com/brOmarito/company-organizer#readme",
+  "dependencies": {
+    "inquirer": "^8.2.0",
+    "mysql2": "^2.3.3-rc.0"
+  }
+}
