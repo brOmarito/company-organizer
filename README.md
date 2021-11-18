@@ -9,7 +9,7 @@ This was some of the most I've gotten to work with Promises and async functions 
 
 ## Usage Information
 Of course! Take a look at the video below which will get you started!\
-<a href="">Demo Video</a>
+<a href="https://watch.screencastify.com/v/8aDRDpsZxYUYJpiFndBS">Demo Video</a>
 
 ## Installation
 (You will need to have MySql installed. I used the CLI MySql tool)
