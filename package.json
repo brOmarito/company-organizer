@@ -17,7 +17,11 @@
   },
   "homepage": "https://github.com/brOmarito/company-organizer#readme",
   "dependencies": {
+    "console.table": "^0.10.0",
+    "dotenv": "^10.0.0",
     "inquirer": "^8.2.0",
-    "mysql2": "^2.3.3-rc.0"
+    "mysql-async": "^1.1.0",
+    "mysql2": "^2.3.3-rc.0",
+    "mysql2-async": "^1.1.1"
   }
 }

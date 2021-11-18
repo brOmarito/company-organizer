@@ -1,8 +1,8 @@
 const initQuestion = [
     {
         type: 'list',
-        choices: ["view all departments", "view all roles", "view all employees", "add a department", "add a role", "add an employee", "update an employee role", "nothing, I'm all done"],
-        name: 'type',
+        choices: ["view all departments", "view all roles", "view all employees", "add a department", "add a role", "add an employee", "update an employee role", "Nothing, I'm all done"],
+        name: 'action',
         message: 'What would you like to do?',
     },
 ]
@@ -47,13 +47,42 @@ const addEmpQuestions = [
         name: 'lastName',
     },
     {
-        type: 'input',
+        type: 'list',
         message: "What is the employee's role/title?",
         name: 'empRole',
     },
     {
-        type: 'input',
-        message: "Who is the employee's manager?\nIf none, press ENTER",
+        type: 'list',
+        message: "Who is the employee's manager?\nIf none, select NONE",
         name: 'empManager',
     },
 ]
+
+const updateEmployeeRoleQuestions = [
+    {
+        type: 'list',
+        message: 'Which employee would you like to update?',
+        name: 'employee',
+    },
+    {
+        type: 'list',
+        message: 'Which role would you like to switch the employee to?',
+        name: 'role',
+    },
+]
+
+const continueQuestion = [
+    {
+        type: 'list',
+        message: 'What next?',
+        choices: ["To the main menu", "Exit"],
+        name: "continue",
+    },
+]
+
+exports.initQuestion = initQuestion;
+exports.addDeptQuestions = addDeptQuestions;
+exports.addRoleQuestions = addRoleQuestions;
+exports.addEmpQuestions = addEmpQuestions;
+exports.continueQuestion = continueQuestion;
+exports.updateEmployeeRoleQuestions = updateEmployeeRoleQuestions;
