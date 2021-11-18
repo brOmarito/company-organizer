@@ -9,7 +9,6 @@ const db = mysql.createConnection({
         database: process.env.DB_NAME,
     }
 )
-console.log("connected to db: " + db);
 
 async function getDepartments() {
     const res = await db.promise().query('SELECT * FROM departments;');

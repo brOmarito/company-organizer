@@ -87,7 +87,6 @@ async function addRoleLogic() {
     await setDepartmentChoices();
     const { title, salary, roleDept } = await inquirer.prompt(addRoleQuestions);
     const deptId = await getDeptId(roleDept);
-    console.log("Current ID", deptId);
     if (!title.trim()) {
         console.log("Please provide a title that isn't empty");
         await addRoleLogic();

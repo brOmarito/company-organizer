@@ -17,3 +17,15 @@ Of course! Take a look at the video below which will get you started!\
 2. Run an npm install in the root folder
 3. Run the schema.sql file
 4. If you want seed data, run the seeds.sql file
+5. Run node index.js from the root
+6. Enjoy!
+
+## Improvements
+* Add more functionality to the existing tables such as DELETE and UPDATE on all entities
+* Add more tables that make sense
+* Give more ability as to where the user can make updates to various things
+* Introduce ability to exit the questions in case the user accidentally hit the wrong option
+
+## Screenshots
+![Screenshot of the Main Menu](./assets/images/main-menu-screenshot.PNG)
+![Screenshot of Adding a Role](./assets/images/add-role-screenshot.PNG)
